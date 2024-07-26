@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFolio Website - Coding Power</title>
+
+    <!-- main style file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- typed js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <!-- scroll to top button -->
+    <button type="button" id="btn" onclick="scrolltoTop()" class="scrollbtn"> <i class="fa fa-arrow-up"></i></button>
+
+    <!-- navbar start here -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">Amazon Virtual Assistant</a>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">Portfolio</a></li>
+            <li><a href="#blog" onclick="menu()">Blog</a></li>
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <!-- home start here -->
+    <div class="home" id="home">
+        <div class="home-content">
+            <h1 class="name">I am Muhammad Awais Mushtaq<h1>
+            <p><span class="typing"></span></p>
+        </div>
+    </div>
+
+    <!-- about start here -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="info">
+                    <div class="personal">
+                        <div class="photo">
+                            <img src="my.png" width="120px" height="130px" alt="">
+                        </div>
+                        <div class="name">
+                            <p><span>Name:</span> Muhammad Awais Mushtaq</p>
+                            <p><span>Profile:</span> Amazon Virtual Assistent</p>
+                            <p><span>Email:</span> am1728764@gmail.com</p>
+                            <p><span>Phone:</span>03039922378</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skill">
+                            <span>Amazon Virtual Assistant</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-line"><span class="html"></span></div>
+                        <div class="skill">
+                            <span>Frontend Web Developer</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                        <div class="skill">
+                            <span>Html Email Signature</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress-line"><span class="javascript"></span></div>
+                        <div class="skill">
+                            <span>Blogging</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-line"><span class="php"></span></div>
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h5>About me</h5>
+                    <h2>Amazon Virtual Assistant Services</h2>
+                    <p>I manage Amazon seller accounts, offering services like inventory management and product listing. My aim is to streamline operations and enhance your Amazon presence.</p>
+                    <h2>Frontend Web Development</h2>
+                    <p>As a frontend web developer, I design and build visually appealing, user-friendly websites. My focus is on creating responsive and interactive web experiences.</p>
+                    <h2>HTML Email Signature Creation</h2>
+                    <p>I create professional, clickable HTML email signatures customized to reflect your brand. These signatures integrate seamlessly with major email clients.</p>
+                    <h2>Blog Writing</h2>
+                    <p>I provide expert blog writing services to craft engaging and informative content. My blog posts are optimized for SEO to help you attract and retain readers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services start here -->
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title">Web Development</div>
+                        <p>I am a frontend web developer with expertise in creating visually appealing and user-friendly websites.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="icon"><i class="fa fa-briefcase"></i></div>
+
+                        <div class="card-title">Amazon Virtual Assistant</div>
+                        <p>I am an Amazon Virtual Assistant with expertise in managing and optimizing Amazon seller accounts.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="icon"><i class="fa fa-envelope"></i></div>
+
+                        <div class="card-title">Html Email Signature </div>
+                        <p>I am an HTML email signature expert with expertise in creating and optimizing professional email signatures.</p>
+                    </div>
+                </div>
+                
+    </section>
+
+    <!-- portfolio start here -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="title">Portfolio</h3>
+            <div class="line"></div>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="content">
+                        <div class="photo">
+                            <img src="Cal.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 1</h3>
+                            <p> <span class="category">Web Design</span> / 20 July 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="mob.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Project 2</h3>
+                        <p> <span class="category">Web Design</span> / 18 May 2020</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="book.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Project 3</h3>
+                        <p> <span class="category">Web Design</span> / 10 Jan 2020</p>
+                    </div>
+                </div>
+                
+    </section>
+
+    <!-- blog start here -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h3 class="title">Blog</h3>
+            <div class="line"></div>
+            <div class="blog-content">
+                <div class="card">
+                    <div class="content">
+                        <div class="photo">
+                            <img src="image1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Math Blog</h3>
+                            <div class="category">Mathematics</div>
+                            <p> Fractional derivatives extend traditional derivatives to non-integer orders, offering flexible and accurate modeling of complex phenomena in fields like physics, engineering, and finance.</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="my.png" alt="">
+                                <p>Muhammad Awais</p>
+                            </div>
+                            <div class="date">
+                                <p>20 Jun 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="photo">
+                            <img src="bs.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Introduction to CS Blog</h3>
+                            <div class="category">Computer Science</div>
+                            <p> Welcome to our Computer Science blog, where we explore the latest trends, innovations, and insights in technology, from programming and AI to cybersecurity and software development.</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="my.png" alt="">
+                                <p>Muhammad Awais</p>
+                            </div>
+                            <div class="date">
+                                <p>07 Jun 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="photo">
+                            <img src= "dsa.png">
+                        </div>
+                        <div class="info">
+                            <h3>DSA Blog</h3>
+                            <div class="category">Data Stucture & Algorithm</div>
+                            <p> Data Structures and Algorithms (DSA) are the foundational concepts of computer science, essential for efficient problem-solving and optimized software development.</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="my.png" alt="">
+                                <p>Muhammad Awais</p>
+                            </div>
+                            <div class="date">
+                                <p>20 Jun 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact start here -->
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="message">
+                    <form>
+                        <h3 class="heading">Send Message Us</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="field">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gettouch">
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                    <p>I would love to hear from you! Whether you have a question about my services, want to discuss a project, or just want to say hello, feel free to reach out. You can contact me through the form below, and I will get back to you as soon as possible.</p>
+                    <div class="info"><i class="fa fa-map-marker"></i>Chunian, Kasur Pakistan</div>
+                    <div class="info"><i class="fa fa-phone"></i>03039922378</div>
+                    <div class="info"><i class="fa fa-envelope"></i>am1728764@gmail.com</div>
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-linkedin"></i>
+
+                         
+</div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>© Copyright Awais Mushtaq. All Rights Reserved</p>
+            <p>Designed by <a href="https://bscomputerscienceguidness.blogspot.com/">Awais Mushtaq</a></p>
+        </footer>
+    </section>
+
+
+    <!-- main js file -->
+    <script src="main.js"></script>
+</body>
+</html>
